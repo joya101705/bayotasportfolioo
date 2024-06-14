@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Include FontAwesome library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <div class="topnav" id="myTopnav">
+      <div>
+        <a href="#home">Home</a>
+        <a href="#container">Background</a>
+        <a href="#projects">Projects</a>
+        <a href="#contacts">Contacts</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        &#9776;
+        <!-- Hamburger icon -->
+      </a>
+    </div>
+    <!-- Header -->
+    <div class="header" id="home">
+      <h1
+        style="
+          font-size: 100px;
+          margin-bottom: 20px;
+          color: white;
+          animation: slideInDown 1.5s ease-out, fadeInHeader 2s ease-out;
+        "
+      >
+        Hi, I am <br />Jumeirah Joy A. Bayotas.
+      </h1>
+      <h3 style="font-size: 18px; color: #ccc">
+        An aspiring BSIT 1G Student in Davao del Norte State College from Sto.
+        Tomas Davao del Norte
+      </h3>
+    </div>
+
+    <p style="background-color: #937257; color: #937257">-</p>
+    <!-- Container with Image and Information -->
+    <div class="container" id="container">
+      <img src="pic nako.jpg" alt="Sample Image" />
+      <div class="container-info">
+        <h2 style="color: #4f4033">About Me</h2>
+        <p style="color: #4f4033">
+          Hey there! Hello! I am Jumeirah Joy A. Bayotas, an 18-year-old
+          dedicated to spreading positivity and enjoying life's simple
+          pleasures. Born on October 17, 2005, I excel in appreciating the small
+          joys in life, whether it's catching up on rest, immersing myself in
+          video games, or spending quality time with loved ones. With a talent
+          for adapting to various situations and a strong work ethic, I approach
+          challenges with enthusiasm and a positive attitude. Colleagues and
+          friends often describe me as a beacon of positivity, and I strive to
+          bring that energy to every aspect of my life.
+        </p>
+        <a class="read-more-btn" href="#contacts">Contact Me</a>
+      </div>
+    </div>
+    <p style="background-color: #937257; color: #937257">-</p>
+    <h1 style="text-align: left; padding: 0px 50px" id="proj">Projects</h1>
+    <!-- Card Design -->
+    <div class="card-container" id="projects">
+      <div class="card">
+        <img src="1.png" alt="Frosty Fiesta Delight Shop System Logo Image " />
+        <div class="card-content">
+          <h3 class="card-title">Frosty Fiesta Delight Shop System</h3>
+          <p class="card-description">
+            Frosty Fiesta Delight was created during our First Semester for our
+            Lab Exam in Computer Programming 1. It is an online store that
+            offers a variety of delicious frozen ice cream designed to satisfy
+            your cravings. The system allows customers to input their desired
+            ice creams and displays the total purchase amount.
+          </p>
+          <br /><br />
+          <a
+            class="read-more-btn"
+            href="https://drive.google.com/file/d/1L7nqO8Or_iUAqOfYmnnpAjhhVifwHJ8o/view?usp=sharing"
+            target="_blank"
+            >Download Project</a
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="2.png" alt="Xenuz Banking System Get Started Image" />
+        <div class="card-content">
+          <h3 class="card-title">Xenuz Banking System</h3>
+          <p class="card-description">
+            The "Xenuz Bank" banking system was created during our Second
+            Semester for our Lab Exam in Computer Programming 2. It is a
+            comprehensive financial platform designed to offer a range of
+            essential services to its users. Functioning as a pivotal hub for
+            monetary transactions, it encompasses features such as deposit, and
+            withdrawal, providing users with seamless access to manage their
+            finances. In addition, it has administration capabilities that
+            handle all the accounts.
+          </p>
+          <a
+            class="read-more-btn"
+            href="https://drive.google.com/file/d/1aM0KnJynm6OooJEsmlDglZ4mp5HASxNV/view?usp=drive_link"
+            target="_blank"
+            >Download Project</a
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="3.png" alt="Ancient Trails Website" />
+        <div class="card-content">
+          <h3 class="card-title">Ancient Trails Website</h3>
+          <p class="card-description">
+            Ancient Trails was created during our Second Semester for our Lab
+            Exam in Web System and Technology 1. It is a website that offers a
+            curated collection of the most significant discoveries, providing
+            detailed information and stunning visuals of each item. From ancient
+            pharaohs' treasures to well-preserved fossils, Ancient Trails brings
+            the wonders of Egypt's rich history right to your fingertips.
+          </p>
+          <br />
+          <a
+            class="read-more-btn"
+            href="https://drive.google.com/file/d/1aM0KnJynm6OooJEsmlDglZ4mp5HASxNV/view?usp=drive_link"
+            target="_blank"
+            >Download Project</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer id="contacts">
+      <p style="font-size: large">For more Info</p>
+      <br />
+      <p style="font-size: large">Jumeirah Joy A. Bayotas:</p>
+      <br />
+      <p>
+        <a
+          href="https://web.facebook.com/jumeirahmark"
+          class="fa fa-facebook"
+          style="font-size: 1.5em"
+        ></a>
+        <a
+          href="https://x.com/Kura_kawai"
+          class="fa fa-twitter"
+          style="font-size: 1.5em"
+        ></a>
+        <a
+          href="https://www.instagram.com/jumeirah_joy/"
+          class="fa fa-instagram"
+          style="font-size: 1.5em"
+        ></a>
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
